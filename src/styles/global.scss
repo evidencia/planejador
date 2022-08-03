@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #FFF;
+  
+    --text-white: #fff;
+    --text-body: #333;
+    --btn-color: #14b7a1;
+    --footer-color: rgb(201, 201, 201);
+
+    --shape: #181920;
+}
+
+body{
+    background: var(--background);
+    color: var(--text-body);
+}
+
+body, input, button, textarea{
+    font: 400 16px 'Roboto', sans-serif;
+}
+
+.react-modal-overlay {
+    background: rgba(0,0,0,0.5);
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-modal-content {
+    width: 100%;
+    max-width: 676px;
+    background: #f0f2f5;
+    padding: 30px;
+    position: relative;
+    border-radius: 0.24rem;
+    
+}
